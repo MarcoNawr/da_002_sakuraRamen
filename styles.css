@@ -298,16 +298,16 @@ footer {
 
 
 /* =======================================================================================
-    Mobile 320px - 767px
+    <100px
 =======================================================================================*/
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     /* ==================================================
     Global
     ==================================================*/
     body {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .nodisplay {
@@ -355,7 +355,7 @@ footer {
     }
 
     nav a {
-        font-size: 12px;
+        font-size: 16px;
         width: 100%;
     }
 
@@ -397,6 +397,7 @@ footer {
 
     .menuCard img {
         width: 60vw;
+        max-width: 300px;
         height: auto;
         aspect-ratio: 1/1;
         object-fit: cover;
@@ -415,22 +416,46 @@ footer {
     ===========================*/
     #adress {
         font-size: 20px;
-
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     #adress img {
         padding: 5px;
     }
 
+    #sectionLocation {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     /* ==================================================
     FOOTER
     ==================================================*/
-    /*TODO:*/
+    footer {
+        height: 154px;
+    }
+
+    #sectionFooter {
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    #logoFooter {
+        height: 32px;
+    }
+
+    .social img {
+        width: 30px;
+        height: 30px;
+    }
+
 }
 
 /* =======================================================================================
     Tablet 768px - 1023px (from 1024px LAptop and taller => Basic Styles)
-=======================================================================================*/
+
 @media (min-width: 769px) and (max-width: 1023px) {
     .nodisplay {
         display: none;
@@ -446,3 +471,4 @@ footer {
         font-size: 32px;
     }
 }
+    =======================================================================================*/
