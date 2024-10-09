@@ -1,0 +1,155 @@
+/* =======================================================================================
+    <100px
+=======================================================================================*/
+
+@media (max-width: 1000px) {
+
+    /* ==================================================
+    Global
+    ==================================================*/
+    body {
+        font-size: 16px;
+    }
+
+    .nodisplay {
+        display: none;
+    }
+
+    .leftrightMargin {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    h1 {
+        font-size: 64px;
+        text-align: center;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+    /* ==================================================
+    HEADER
+    ==================================================*/
+    header {
+        height: 58px;
+        gap: 24px;
+    }
+
+    #logoHeader {
+        height: 32px;
+        width: 32px;
+    }
+
+    nav {
+        flex: 1;
+    }
+
+    nav a {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    #ctaPhone {
+        padding: 5px;
+        justify-content: center;
+    }
+
+    /* ==================================================
+    MAIN
+    ==================================================*/
+    /* ===========================
+    SECTION HERO
+    ===========================*/
+
+    #sectionHero span {
+        font-size: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+        text-align: center;
+    }
+
+    /* ===========================
+        SECTION HOW TO ORDER
+    ===========================*/
+    .cards {
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+    }
+
+    /* ===========================
+        SECTION SECTION OUR MENU
+    ===========================*/
+    .menuCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuCard img {
+        width: 60vw;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    .foodVariations {
+        font-size: 24px;
+    }
+
+    .mobileReverse {
+        flex-flow: column-reverse;
+    }
+
+    /* ===========================
+        SECTION FIND US AT
+    ===========================*/
+    #adress {
+        font-size: 20px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    #adress img {
+        padding: 5px;
+    }
+
+    #sectionLocation {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* ==================================================
+    FOOTER
+    ==================================================*/
+    footer {
+        height: 154px;
+    }
+
+    #sectionFooter {
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    #logoFooter {
+        height: 32px;
+    }
+
+    .social img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
