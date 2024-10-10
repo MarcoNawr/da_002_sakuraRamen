@@ -31,9 +31,15 @@ body {
     font-size: var(--font-size-regular);
 }
 
-.leftrightMargin {
+/* .leftrightMargin {
     margin-left: 160px;
     margin-right: 160px;
+} */
+
+h1 {
+    font-size: var(--font-size-h1);
+    font-weight: bold;
+    text-align: center;
 }
 
 h2 {
@@ -49,10 +55,17 @@ h3 {
     font-weight: bold;
 }
 
-.minmaxWidth {
-    /*320px-32px (Padding)*/
+/* .minmaxWidth {
+    /*320px-32px (Padding)
     min-width: 288px;
-    /* max-width: 1440px; TODO: Wenn ich das machen möchte müsste ich meine Struktur zu stark anpassen. @Frederic:  */
+    /* max-width: 1440px; TODO: Wenn ich das machen möchte müsste ich meine Struktur zu stark anpassen. @Frederic:  
+} */
+
+.contentContainer {
+    min-width: 288px;
+    max-width: 1440px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 
 /* =======================================================================================
@@ -64,6 +77,10 @@ header {
     left: 0;
     right: 0;
     height: 112px;
+}
+
+.contentContainer__header {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -123,23 +140,20 @@ nav a:hover {
     background-image: url(./img/1_hero/JPG/hero_bg.jpg);
     background-size: cover;
     background-position: bottom;
+}
 
+.contentContainer__sectionHero {
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     color: var(--clrBrightText);
 }
 
 h1,
 .sectionHero span {
     color: white;
-}
-
-h1 {
-    font-size: var(--font-size-h1);
-    font-weight: bold;
 }
 
 .sectionHero span {
