@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="flexboxRowXCenter">
         <div class="contentContainer contentContainer__header">
             <img id="logoHeader" src="./img/1_hero/SVG/sakura_logo.svg" alt="logo">
             <nav>
@@ -35,31 +35,33 @@
         </div>
     </header>
     <main>
-        <section id="sectionHero">
+        <section id="sectionHero" class="flexboxRowXCenter">
             <div class="contentContainer contentContainer__sectionHero">
                 <h1>SAKURA RAMEN</h1>
                 <span>THE BEST RAMEN IN TOWN</span>
             </div>
         </section>
-        <section id="sectionHowToOrder" class="leftrightMargin minmaxWidth">
-            <h2>HOW TO ORDER</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="./img/2_section_how_to_order/SVG/noodle.svg" alt="noodleImage">
-                    <p>Pick your noodle</p>
-                </div>
-                <div class="card">
-                    <img src="./img/2_section_how_to_order/SVG/broth.svg" alt="brothImage">
-                    <p>Pick you broth</p>
-                </div>
-                <div class="card">
-                    <img src="./img/2_section_how_to_order/SVG/egg.svg" alt="eggImage">
-                    <p>Add your toppings</p>
+        <section id="sectionHowToOrder" class="flexboxRowXCenter">
+            <div class="contentContainer contentContainer__sectionHowToOrder">
+                <h2>HOW TO ORDER</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="./img/2_section_how_to_order/SVG/noodle.svg" alt="noodleImage">
+                        <p>Pick your noodle</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/2_section_how_to_order/SVG/broth.svg" alt="brothImage">
+                        <p>Pick you broth</p>
+                    </div>
+                    <div class="card">
+                        <img src="./img/2_section_how_to_order/SVG/egg.svg" alt="eggImage">
+                        <p>Add your toppings</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <div id="sectionMenuBackgroundImage">
-            <section id="sectionMenu" class="leftrightMargin minmaxWidth">
+        <section id="sectionMenu" class="flexboxRowXCenter">
+            <div class="contentContainer contentContainer__sectionMenu">
                 <h2>OUR MENU</h2>
                 <div class=" menuCards">
                     <div class="menuCard menuCardLeft">
@@ -123,13 +125,16 @@
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-        <section id="sectionLocation" class=" minmaxWidth">
-            <h2>FIND US AT</h2>
-            <div id="adress">
-                <img src="./img/4_section_find_us_at/SVG/map_marker.svg" alt="LocationIcon">
-                <p> Kapuzinerstraße 31, München, 80337</p>
+            </div>
+        </section>
+
+        <section id="sectionLocation" class="flexboxColumnXCenter">
+            <div class="contentContainer contentContainer__sectionLocation">
+                <h2>FIND US AT</h2>
+                <div id="adress">
+                    <img src="./img/4_section_find_us_at/SVG/map_marker.svg" alt="LocationIcon">
+                    <p> Kapuzinerstraße 31, München, 80337</p>
+                </div>
             </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.2079675910477!2d11.55862837633244!3d48.12551265200106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf44d01affc5%3A0xe7a07e0710be63e8!2sKapuzinerstra%C3%9Fe%2031%2C%2080337%20M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1728018474776!5m2!1sde!2sde"
@@ -137,8 +142,8 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
-    <footer class="minmaxWidth">
-        <section id="sectionFooter" class="leftrightMargin">
+    <footer class="flexboxRowXCenter">
+        <div class="contentContainer contentContainer__footer">
             <img id="logoFooter" src="./img/5_section_footer/SVG/sakura_ramen_logo_and_text.svg" alt="logo_and_text">
             <div class="social">
                 <a href="https://tripadvisor.de"><img src="./img/5_section_footer/SVG/tripadvisor_logo.svg"
@@ -148,7 +153,7 @@
                 <a href="https://www.instagram.com/"><img src="./img/5_section_footer/SVG/instagram_logo.svg"
                         alt="instagram"></a>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 

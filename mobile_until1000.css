@@ -81,9 +81,6 @@
     /* ===========================
     SECTION HERO
     ===========================*/
-
-    #sectionHero span {}
-
     .contentContainer__sectionHero {
         font-size: 20px;
         text-align: center;
@@ -147,7 +144,7 @@
         height: 154px;
     }
 
-    #sectionFooter {
+    .contentContainer__footer {
         flex-direction: column;
         justify-content: center;
         gap: 16px;
